@@ -27,8 +27,8 @@ defmodule AMQP.Mixfile do
 
   defp deps do
     [
-      {:amqp_client, "~> 3.7.10-rc.4"},
-      {:rabbit_common, "~> 3.7.10-rc.4"},
+      {:amqp_client, "~> 3.7.11"},
+      {:rabbit_common, "~> 3.7.11"},
 
       # We have an issue on rebar3 dependencies.
       # https://github.com/pma/amqp/issues/78
